@@ -78,11 +78,6 @@ on:
         type: string
         default: "1000"
 
-permissions:
-  contents: write
-  pull-requests: write
-  issues: write
-
 jobs:
   create_challenge:
     name: Create challenge
@@ -105,5 +100,3 @@ jobs:
       milestone: "CTF Challenges"
       runs-on: "ubuntu-latest"
       toolkit-path: "./challenge-toolkit/"
-    secrets:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
