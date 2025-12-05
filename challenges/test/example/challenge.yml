@@ -4,7 +4,7 @@ enabled: true
 name: Example
 slug: example
 author: The Mikkel
-category: misc
+category: test
 difficulty: easy
 tags: []
 type: static
