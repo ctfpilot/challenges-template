@@ -9,7 +9,7 @@ on:
 jobs:
   create_challenge:
     name: Create challenge
-    uses: ctfpilot/challenge-ci/.github/workflows/configure-challs.yml@v1.0.0-r.12
+    uses: ctfpilot/challenge-ci/.github/workflows/configure-challs.yml@v1.0.0
     permissions:
       contents: write
       packages: write
