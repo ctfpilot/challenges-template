@@ -81,7 +81,7 @@ on:
 jobs:
   create_challenge:
     name: Create challenge
-    uses: ctfpilot/challenge-ci/.github/workflows/create-chall.yml@v1.0.0-r.12
+    uses: ctfpilot/challenge-ci/.github/workflows/create-chall.yml@develop
     permissions:
       contents: write
       pull-requests: write
