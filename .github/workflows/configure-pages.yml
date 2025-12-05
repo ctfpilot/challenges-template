@@ -9,7 +9,7 @@ on:
 jobs:
   create_pages:
     name: Create pages
-    uses: ctfpilot/challenge-ci/.github/workflows/configure-pages.yml@v1.0.0-r.4
+    uses: ctfpilot/challenge-ci/.github/workflows/configure-pages.yml@v1.0.0-r.5
     permissions:
       contents: write
     with:
