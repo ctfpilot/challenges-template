@@ -3,7 +3,7 @@ challenge:
   name: example
   category: misc
   type: none
-  version: 2
+  version: 3
   path: challenges/misc/example
 kubectf:
   expires: 3600
