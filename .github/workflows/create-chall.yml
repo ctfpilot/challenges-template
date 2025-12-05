@@ -78,14 +78,15 @@ on:
         type: string
         default: "1000"
 
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
 jobs:
   create_challenge:
     name: Create challenge
     uses: ctfpilot/challenge-ci/.github/workflows/create-chall.yml@v1.0.0-r.12
-    permissions:
-      contents: write
-      pull-requests: write
-      issues: write
     with:
       issue: ${{ inputs.issue }}
       name: ${{ inputs.name }}
