@@ -105,4 +105,5 @@ jobs:
       milestone: "CTF Challenges"
       runs-on: "ubuntu-latest"
       toolkit-path: "./challenge-toolkit/"
-    secrets: inherit
+    secrets: 
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
