@@ -1,10 +1,10 @@
 challenge:
   enabled: true
   name: example
-  category: misc
+  category: test
   type: none
-  version: 3
-  path: challenges/misc/example
+  version: 4
+  path: challenges/test/example
 kubectf:
   expires: 3600
   availableAt: 0
