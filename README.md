@@ -3,7 +3,7 @@
 ## Template
 
 > [!IMPORTANT]
-> The [`Template`](#template) section must be removed after you have created a repository from this template.
+> The [`Template`](#template) section must be removed after you have created a repository from this template.  
 > This section serves only to inform you on how to use this template.
 
 This repository serves as a template for creating new challenge repositories in the CTF Pilot ecosystem.  
@@ -51,6 +51,9 @@ Refer to the [Discord Bot documentation](https://github.com/ctfpilot/discord-bot
 
 The template repository is licensed under the [EUPL-1.2 License](https://interoperable-europe.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt).  
 The included tools are licensed under their respective licenses.
+
+By contributing to this template repository, you agree to our Contributor License Agreement (CLA).  
+The CLA can be found in <https://github.com/ctfpilot/cla>.
 
 You may copy, modify, and distribute this template repository under the terms of the [EUPL-1.2 License](https://interoperable-europe.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt).  
 Any content you add to your new repository, that is templated from this repository, is subject to your own licensing terms.
