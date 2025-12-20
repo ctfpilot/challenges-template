@@ -30,6 +30,12 @@ It includes the necessary structure, workflows, and tools to streamline challeng
 5. **Insert repository name (`owner/repo`) in the README.md file**:
    - In the `README.md` file, replace all instances of `ctfpilot/challenges-template` with your new repository's name in the format `owner/repo`. (Use find and replace feature of your text editor).
 
+6. **Update GitHub project link**:
+   - In the `README.md` file, update the link to the GitHub project board in the `Project board` section to point to your own project board.
+     Link to update: `https://github.com/orgs/ctfpilot/projects/1`
+
+     **If you do not have a project board, you may remove the entire `Project board` section, or follow the instructions in the [GitHub projects](#github-projects) section to create one from the template.**
+
 ### Included Features
 
 Included in this template are the following tools and configurations:
@@ -46,6 +52,13 @@ However, for advanced customization, refer to the documentation of each tool.
 However, this README does not provide instructions to challenge developers on how it can be used to do some of the automation.
 
 Refer to the [Discord Bot documentation](https://github.com/ctfpilot/discord-bot) for more information on how to set up and use the bot with your challenge repository.
+
+#### GitHub projects
+
+To manage challenges and track progress, GitHub Projects can be utilized.  
+A template GitHub project is available in: [Challenges Project board Template](https://github.com/orgs/ctfpilot/projects/1).
+
+You can create a new project from the template, and link it to your challenge repository.
 
 ### Template license
 
@@ -263,3 +276,8 @@ To create a new challenge, follow these steps:
 7. Once the workflow is complete, a new branch, pull request, and issue will be created for the challenge.
 
 If errors occur during the workflow execution, please reach out to the infrastructure team for assistance. Logs from the workflow can be found in the `Actions` tab of the repository.
+
+## Project board
+
+A project board is available to track the progress of challenges.  
+This can be found at: [Challenges Project board](https://github.com/orgs/ctfpilot/projects/1)
