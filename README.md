@@ -36,6 +36,14 @@ It includes the necessary structure, workflows, and tools to streamline challeng
 
      **If you do not have a project board, you may remove the entire `Project board` section, or follow the instructions in the [GitHub projects](#github-projects) section to create one from the template.**
 
+#### Recommended repository settings
+
+- **Branch protection rules**:
+  - It is recommended to set up branch protection rules for the `main` branch to ensure that changes are reviewed before being merged.
+    *This may not be applicable if you the repository is private, as branch protection rules may require a paid plan for private repositories.*
+- **Enable `Always suggest updating pull request branches`**:
+  - In the "Settings" tab, under "General", enable the `Always suggest updating pull request branches` option to help keep pull requests up to date with the base branch.
+
 ### Included Features
 
 Included in this template are the following tools and configurations:
