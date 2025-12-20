@@ -60,6 +60,15 @@ Any content you add to your new repository, that is templated from this reposito
 
 A license file is not included in this template repository to avoid confusion.
 
+## Challenge toolkit
+
+This repository contains [CTF Pilot's Challenge Toolkit](https://github.com/ctfpilot/challenge-toolkit) as a Git submodule.  
+In order to retrieve the submodule, run the following command after cloning the repository:
+
+```bash
+git submodule update --init --recursive
+```
+
 ## Repository structure
 
 > [!TIP]
